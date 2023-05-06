@@ -52,9 +52,7 @@ const Slideshow = () => {
           index === slideIndex % slides.length ? 'fade active' : 'hidden'
         }`}
       >
-        <div className="numbertext">{slide.number} / {slides.length}</div>
         <img src={slide.src} style={{ width: '100%' }} alt={`Slide ${slide.number}`} />
-        <div className="text">{slide.caption}</div>
       </div>
     ));
 
@@ -72,8 +70,8 @@ const Slideshow = () => {
       
       <div className="relative ImageSlider">
         {renderSlides()}
-        <a className="m-1 p-1 bg-opacity-40 prev absolute top-1/2 left-0 transform -translate-y-1/3 bg-black text-white font-bold text-3xl rounded cursor-pointer" onClick={handlePrevClick}>&#10094;</a>
-        <a className="m-1 p-1 bg-opacity-40 next absolute top-1/2 right-0 transform -translate-y-1/3 bg-black text-white font-bold text-3xl rounded cursor-pointer" onClick={handleNextClick}>&#10095;</a>
+        <a className="m-1 p-1 bg-opacity-40 prev absolute top-1/2 left-0 transform -translate-y-1/3 bg-black text-white font-bold text-3xl rounded cursor-pointer border" onClick={handlePrevClick}>&#10094;</a>
+        <a className="m-1 p-1 bg-opacity-40 next absolute top-1/2 right-0 transform -translate-y-1/3 bg-black text-white font-bold text-3xl rounded cursor-pointer border" onClick={handleNextClick}>&#10095;</a>
       </div>
 
       <br />
