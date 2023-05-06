@@ -15,4 +15,7 @@ body{
 body {
   font-family: Verdana, sans-serif;
 }
-
+.ImageSlider{
+  width: 65%;
+  margin: 5px;
+}

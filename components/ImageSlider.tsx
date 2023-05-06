@@ -70,7 +70,7 @@ const Slideshow = () => {
   return (
     <>
       
-      <div className="relative w-1/2 h-1/2">
+      <div className="relative ImageSlider">
         {renderSlides()}
         <a className="m-1 p-1 bg-opacity-40 prev absolute top-1/2 left-0 transform -translate-y-1/3 bg-black text-white font-bold text-3xl rounded cursor-pointer" onClick={handlePrevClick}>&#10094;</a>
         <a className="m-1 p-1 bg-opacity-40 next absolute top-1/2 right-0 transform -translate-y-1/3 bg-black text-white font-bold text-3xl rounded cursor-pointer" onClick={handleNextClick}>&#10095;</a>
