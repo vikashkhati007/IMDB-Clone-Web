@@ -1,5 +1,6 @@
 import Header from "../../../components/header"
 import Footer from "../../../components/footer"
+import Link from "next/link"
 const signin = () => {
   return (
     <>
@@ -13,8 +14,9 @@ const signin = () => {
           <button className="border border-gray-300 rounded-sm font-bold text-gray-600 cursor-pointer w-60 py-1">Sign in with Google</button>
           <button className="border border-gray-300 rounded-sm font-bold text-gray-600 cursor-pointer w-60 py-1">Sign in with Apple</button>
           <p className="text-black text-center">or</p>
+          <Link href={"/createnewaccount"}>
           <button className="border border-gray-300 rounded-md font-bold text-black cursor-pointer w-60 py-1 bg-yellow-500">Create a New Account</button>
-          
+          </Link>
           </div>
           <div className="border-l-2 h-1/2 mt-4">
 
