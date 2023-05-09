@@ -17,9 +17,9 @@ body {
 }
 .ImageSlider{
   width: 65%;
-  margin: 5px;
+  margin: 10px;
+  margin-top: 30px; 
 }
 .showscontainer{
   height: 35rem;
-
 }
