@@ -13,19 +13,19 @@ const page = () => {
                     <h1 className="text-black text-2xl font-medium">Create Account</h1>
                     <div>
                         <h4 className="text-sm font-bold text-black">Your name</h4>
-                        <input className="text-black border border-gray-400 rounded-sm w-full" type="text" ></input>
+                        <input className="text-black border border-gray-400 rounded-sm w-full px-1 text-sm py-1" type="text" ></input>
                     </div>
                     <div>
                         <h4 className="text-sm font-bold text-black">Email</h4>
-                        <input className="text-black border border-gray-400 rounded-sm w-full" type="email"></input>
+                        <input className="text-black border border-gray-400 rounded-sm w-full px-1 text-sm py-1" type="email"></input>
                     </div>
                     <div>
                         <h4 className="text-sm font-bold text-black">Password</h4>
-                        <input className="text-black border border-gray-400 rounded-sm w-full" type="password"></input>
+                        <input className="text-black border border-gray-400 rounded-sm w-full px-1 text-sm py-1" type="password"></input>
                     </div>
                     <div>
                         <h4 className="text-sm font-bold text-black">Re-enter password</h4>
-                        <input className="text-black border border-gray-400 rounded-sm w-full" type="password"></input>
+                        <input className="text-black border border-gray-400 rounded-sm w-full px-1 text-sm py-1" type="password"></input>
                     </div>
                     <div>
                         <button className="text-black text-sm border bg-gradient-to-t from-yellow-500 to-yellow-200 w-full h-8 rounded-sm border-black">Create Your Imdb Account</button>

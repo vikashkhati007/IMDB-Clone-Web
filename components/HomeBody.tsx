@@ -4,7 +4,7 @@ import FeaturedToday from "./FeaturedToday";
 
 const HomeBody = () => {
   return (
-    <div className="w-full h-screen flex justify-around flex-wrap">
+    <div className="w-full flex justify-around flex-wrap">
       <ImageSlider />
       <UpNext />
       <FeaturedToday />
