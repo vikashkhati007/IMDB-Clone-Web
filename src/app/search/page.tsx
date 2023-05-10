@@ -3,7 +3,6 @@ const page = () => {
   return (
     <>
     <Header/>
-      
     </>
   )
 }

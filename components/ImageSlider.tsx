@@ -15,17 +15,17 @@ const Slideshow = () => {
   const slides = [
     {
       number: 1,
-      src: 'https://image.myanimelist.net/ui/BQM6jEZ-UJLgGUuvrNkYUIcH9QKiuQwX9p6PTfC7y3rqfhtgI5bO3HU-z8j4Y5Rb6fD2x7bKV8ACDLWResoBDA',
+      src: 'https://wallpapercave.com/dwp2x/wp11755847.jpg',
       caption: 'Caption Text'
     },
     {
       number: 2,
-      src: 'https://cdn.gaminggorilla.com/wp-content/uploads/2023/02/The-Best-Green-Haired-Anime-Girls.jpg',
+      src: 'https://wallpapercave.com/dwp2x/wp5850454.jpg',
       caption: 'Caption Two'
     },
     {
       number: 3,
-      src: 'https://wallpaperaccess.com/full/3997448.jpg',
+      src: 'https://wallpapercave.com/dwp2x/wp1917151.png',
       caption: 'Caption Three'
     }
   ];
