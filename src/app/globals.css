@@ -24,3 +24,10 @@ body {
   height: 35rem;
 }
 
+.inputcontainer{
+  height: 35px;
+  width: 732px;
+}
+.input{
+  width: inherit;
+}

@@ -13,9 +13,9 @@ const Header = () => {
           <SlMenu  />
           <span className="text-sm font-bold">Menu</span>
         </div>
-        <div className="flex w-11/12 h-8 mx-auto items-center overflow-hidden">
+        <div className="flex inputcontainer h-8 items-center" >
           <button className="h-6 px-3 bg-gradient-radial from-white to-gray-100 border-r border-black text-black font-bold text-sm translate-x-12">All</button>
-        <input placeholder="Search IMDb" className="px-14 w-11/12 h-8 text-black text-sm rounded-sm outline-amber-400" type="search" ></input>
+        <input placeholder="Search IMDb" className="px-14 input h-8 text-black text-sm rounded-sm outline-amber-400" type="search" ></input>
         <svg style={{color: "black"}} className="-translate-x-8 z-10 relative" xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="iconContext-magnify" viewBox="0 0 24 24" fill="gray" role="presentation"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
         </div>
           <div className="p-3 rounded-sm hover:bg-white hover:bg-opacity-10 cursor-pointer">

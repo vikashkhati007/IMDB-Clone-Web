@@ -38,7 +38,7 @@ const FeaturedToday = () => {
           </div>
         </div>
 
-        <div className="showscontainer bg-[#1A1A1A] w-1/5 mb-20 rounded-b-md">
+        <div className="showscontainer bg-[#1A1A1A] w-1/5 mb-5 rounded-b-md">
           <div className="imagecontainer">
             <div className="svgcontainer absolute">
               <svg className="absolute opacity-40" width="24px" height="34px" viewBox="0 0 24 34" xmlns="http://www.w3.org/2000/svg" role="presentation"><polygon fill="#000000" points="24 0 0 0 0 32 12.2436611 26.2926049 24 31.7728343"></polygon><polygon points="24 0 0 0 0 32 12.2436611 26.2926049 24 31.7728343"></polygon><polygon points="24 31.7728343 24 33.7728343 12.2436611 28.2926049 0 34 0 32 12.2436611 26.2926049"></polygon></svg>
@@ -67,7 +67,7 @@ const FeaturedToday = () => {
           </div>
         </div>
 
-        <div className="showscontainer bg-[#1A1A1A] w-1/5 mb-20 rounded-b-md">
+        <div className="showscontainer bg-[#1A1A1A] w-1/5 mb-5 rounded-b-md">
           <div className="imagecontainer">
             <div className="svgcontainer absolute">
               <svg className="absolute opacity-40" width="24px" height="34px" viewBox="0 0 24 34" xmlns="http://www.w3.org/2000/svg" role="presentation"><polygon fill="#000000" points="24 0 0 0 0 32 12.2436611 26.2926049 24 31.7728343"></polygon><polygon points="24 0 0 0 0 32 12.2436611 26.2926049 24 31.7728343"></polygon><polygon points="24 31.7728343 24 33.7728343 12.2436611 28.2926049 0 34 0 32 12.2436611 26.2926049"></polygon></svg>
@@ -96,7 +96,7 @@ const FeaturedToday = () => {
           </div>
         </div>
 
-        <div className="showscontainer bg-[#1A1A1A] w-1/5 mb-20 rounded-b-md">
+        <div className="showscontainer bg-[#1A1A1A] w-1/5 mb-5 rounded-b-md">
           <div className="imagecontainer">
             <div className="svgcontainer absolute">
               <svg className="absolute opacity-40" width="24px" height="34px" viewBox="0 0 24 34" xmlns="http://www.w3.org/2000/svg" role="presentation"><polygon fill="#000000" points="24 0 0 0 0 32 12.2436611 26.2926049 24 31.7728343"></polygon><polygon points="24 0 0 0 0 32 12.2436611 26.2926049 24 31.7728343"></polygon><polygon points="24 31.7728343 24 33.7728343 12.2436611 28.2926049 0 34 0 32 12.2436611 26.2926049"></polygon></svg>
