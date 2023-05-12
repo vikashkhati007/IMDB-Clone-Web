@@ -30,7 +30,6 @@ const page = () => {
                     <div>
                         <button className="text-black text-sm border bg-gradient-to-t from-yellow-500 to-yellow-200 w-full h-8 rounded-sm border-black">Create Your Imdb Account</button>
                     </div>
-
                     <p className="text-black text-sm">Already Have an Account?<Link href={"/signin"}> <a className="text-blue-800">Signin</a></Link></p>
                 </div>
             </div>

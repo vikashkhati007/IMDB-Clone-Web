@@ -28,16 +28,16 @@ const Page = (e: any) => {
                     </div>
                 </div>
                 <div className="border max-w-3xl h-96 m-5 flex flex-col gap-3 overflow-y-scroll p-5">
-                    {data.map((d:any) => (
-                                <Link key={d.id} href={`/posts?postId=${d.id}`}>
-                        <div  className="flex cursor-pointer">
-                                <img src={`https://image.tmdb.org/t/p/w500${d.poster_path}`} width={80} height={80} />
+                    {data.map((d: any) => (
+                        <Link key={d.id} href={`/posts?postId=${d.id}`}>
+                            <div className="flex cursor-pointer">
+                                <img src={`https://image.tmdb.org/t/p/w500/${d.poster_path}`} width={80} height={80} />
                                 <div className="mx-5">
                                     <h1 className="text-black font-semibold hover:underline">{d.title}</h1>
-                                    <p className="text-black opacity-60 text-sm">{d.overview.substring(0,100)}{"...?"}</p>
+                                    <p className="text-black opacity-60 text-sm">{d.overview.substring(0, 100)}{"...?"}</p>
                                 </div>
                             </div>
-                            </Link>
+                        </Link>
                     ))}
                 </div>
             </div>
