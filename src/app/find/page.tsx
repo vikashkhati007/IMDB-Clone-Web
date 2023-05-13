@@ -29,6 +29,8 @@ const Page = (e: any) => {
                 </div>
                 <div className="border max-w-3xl h-96 m-5 flex flex-col gap-3 overflow-y-scroll p-5">
                     {data.map((d: any) => (
+                              <>
+                              {d.poster_path?
                         <Link key={d.id} href={`/posts?postId=${d.id}`}>
                             <div className="flex cursor-pointer">
                                 <img src={`https://image.tmdb.org/t/p/w500/${d.poster_path}`} width={80} height={80} />
@@ -38,6 +40,8 @@ const Page = (e: any) => {
                                 </div>
                             </div>
                         </Link>
+                        :null}
+                        </>
                     ))}
                 </div>
             </div>

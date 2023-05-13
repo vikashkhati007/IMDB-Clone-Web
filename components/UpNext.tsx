@@ -38,7 +38,7 @@ const UpNext = () => {
         <div className="upnext h-full bg-gradient-to-b from-[#121212] to-[#000] p-3 flex flex-col gap-6">
           {sequence.map((d: any) => (
             <Link key={d.id} href={`/trailer?postId=${d.id}`}>
-              <div key={d.id} className="uppercontainer flex gap-5">
+              <div key={d.id} className="uppercontainer flex gap-5 ease-in-out">
                 <img src={`https://image.tmdb.org/t/p/w500/${d.poster_path}`} width={80} height={80}></img>
                 <div className="moviecontent flex flex-col gap-2">
                   <div className="flex gap-2">

@@ -20,10 +20,11 @@ const Page = ({ searchParams: { postId } }) => {
   return (
     <div className="divcontainer w-full h-screen bg-black bg-opacity-50 flex justify-center items-center">
       {loading ? (
-        <div className="loader">Loading...</div>
+        <div className="loader w-full h-screen flex justify-center items-center" >
+        </div>
       ) : (
         <>
-          <div className="postcontainer bg-white border border-opacity-20 w-3/4 h-3/4 overflow-hidden bg-opacity-60 shadow-slate-50 shadow-sm rounded-sm">
+          <div className="postcontainer bg-white border border-opacity-20 w-3/4 h-3/4 overflow-hidden shadow-slate-50 shadow-sm rounded-sm">
             <div className="itemscontainer flex flex-col m-10 overflow-hidden">
               <div className="overflow-hidden drop-shadow-xl w-fit">
                 <Link href={`https://www.imdb.com/title/${movie.imdb_id}`}>
