@@ -45,11 +45,11 @@ const UpcomingMovies = () => {
                     </Link>
                     <div className="trailercontainer flex items-center justify-between w-full gap-5 my-1">
                         <div className="trailercontainer flex items-center mx-5 hover:bg-white cursor-pointer p-1 rounded-md hover:bg-opacity-10">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="iconContext-play-arrow" viewBox="0 0 24 24" fill="currentColor" role="presentation"><path d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"></path></svg>
-                            <span className="font-bold text-sm mr-1">Trailer</span>
+                            <svg style={{opacity:"0"}}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="iconContext-play-arrow" viewBox="0 0 24 24" fill="currentColor" role="presentation"><path d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"></path></svg>
+                            <span style={{opacity:"0"}} className="font-bold text-sm mr-1">Trailer</span>
                         </div>
                         <div className="infocontainer mx-10 hover:bg-white p-1 hover:bg-opacity-10 rounded-full cursor-pointer">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="iconContext-info" viewBox="0 0 24 24" fill="currentColor" role="presentation"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path></svg>
+                            <svg style={{opacity:"0"}}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="iconContext-info" viewBox="0 0 24 24" fill="currentColor" role="presentation"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path></svg>
                         </div>
                     </div>
                 </div>: null}
