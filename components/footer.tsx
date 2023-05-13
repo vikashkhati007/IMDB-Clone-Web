@@ -41,7 +41,7 @@ const Footer = () => {
         <h2 className="flex items-center gap-1 hover:underline cursor-pointer"> Your Ads Privacy Choice <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg" id="iconContext-launch-inline" viewBox="0 0 24 24" fill="currentColor" role="presentation"><path d="M21.6 21.6H2.4V2.4h7.2V0H0v24h24v-9.6h-2.4v7.2zM14.4 0v2.4h4.8L7.195 14.49l2.4 2.4L21.6 4.8v4.8H24V0h-9.6z"></path></svg></h2>
       </div>
       <div className="copyright">
-        <p className="text-sm opacity-60">© 1990-2023 by IMDb.com, Inc.</p>
+        <p className="text-sm opacity-60">© 2023-2030 by Vikash Khati . Follow Me on @vikashkhati007</p>
       </div>
     </div>
   )
