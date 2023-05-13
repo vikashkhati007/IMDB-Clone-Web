@@ -22,7 +22,7 @@ const UpcomingMovies = () => {
                 <span className="opacity-70">Not Released</span>
             </div>
             <div className="toppickscontainer w-full m-5 flex flex-row gap-2 overflow-x-scroll">
-                {data.map((d: any) => (
+                {data.slice(3).map((d: any) => (
                       <>
                     {d.poster_path?   <div key={d.title} className="showscontainer bg-[#1A1A1A] w-1/5 mb-5 rounded-b-md">
                     <div className="imagecontainer">
@@ -32,14 +32,18 @@ const UpcomingMovies = () => {
                         </div>
                         <img className="" src={`https://image.tmdb.org/t/p/w500/${d.poster_path}`} width={300} height={100}></img>
                     </div>
+                    <div className="rating flex gap-2 items-center my-2">
+                    <Link key={d.id} href={`/posts?postId=${d.id}`}>
+                        <h2 className="mx-2 hover:underline cursor-pointer text-yellow-400 font-bold">{d.title}</h2>
+                    </Link>
+                    </div>
+
                     <div className="ratingcontainer flex items-center gap-5">
                         <div className="rating flex gap-2 items-center m-2">
                             <p> Realease Date: {d.release_date}</p>
                         </div>
                     </div>
-                    <Link key={d.id} href={`/posts?postId=${d.id}`}>
-                        <h2 className="mx-2 hover:underline cursor-pointer">{d.title}</h2>
-                    </Link>
+                   
                     <Link key={d.id} href={`/trailer?postId=${d.id}`}>
                         <button className=" w-11/12 mx-2 rounded-lg text-sm font-bold font-sans p-2 bg-gray-600 bg-opacity-20 my-5 brightness-200 text-blue-800 hover:underline">Watch Options</button>
                     </Link>
