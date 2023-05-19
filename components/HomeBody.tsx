@@ -6,7 +6,7 @@ import UpcomingMovies from "./UpcomingMovies";
 const HomeBody = () => {
   return (
     <div className="w-full flex justify-around flex-col">
-      <div className="flex">
+      <div className="flex flex-col lg:flex-row w-full items-center">
       <ImageSlider />
       <UpNext />
       </div>

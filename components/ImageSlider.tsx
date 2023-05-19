@@ -51,7 +51,7 @@ const Slideshow = () => {
         className={`mySlides ${index === slideIndex % slides.length ? 'fade active' : 'hidden'
           }`}
       >
-        <img src={slide.src} style={{ width: '100%' }} alt={`Slide ${slide.number}`} />
+        <img src={slide.src} style={{ width: '100%' }} alt="nice"/>
       </div>
     ));
 
